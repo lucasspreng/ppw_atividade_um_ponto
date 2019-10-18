@@ -1,0 +1,72 @@
+body{
+    background-color: #6d2275;
+}
+
+.MainContent{
+    width: 100%;
+    height: calc(100vh - 50px);
+}
+
+.WallPaper{
+    background-image: url(../img/formBack.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.navbar ul li:first-child{
+    float: left;
+}
+
+.navbar ul li:last-child{
+    float: right;
+}
+
+.bntClose{
+    background-color: #d7d7d7;
+    background-image: linear-gradient(147deg, #d7d7d7 0%, #353535 74%);
+    color: #000000;
+    font-weight: bold;
+    margin-right: 250px;
+}
+
+.divFormCadastro{
+    width: 35%;
+    height: calc(100vh - 50px);
+    float: left;
+}
+
+.formCadastro{
+    color: #ffffff;
+    padding: 100px 0 0 10px;
+}
+
+.formCadastro input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.registerBtn{
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4a0651;
+    padding: 10px 50px;
+    border:none;
+}
+
+.registerBtn:hover{
+    cursor:pointer;
+    background-color: #210324;
+}
+
+.divLogoNu{
+    width: 30%;
+    height: calc(100vh - 50px);
+    float: right;
+}
+
+.divLogoNu img{
+    margin-top: 115px;
+}
